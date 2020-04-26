@@ -65,14 +65,14 @@ function init(){
         // 判断图片的边界
         if(newSrcNum > congit.imgNumber){
             newSrcNum = 1;
-            congit.dom.previewImg.src = `./imgs/match/${newSrcNum}.jpg`;
+            congit.dom.previewImg.src = `./imgs/match_18/${newSrcNum}.jpg`;
         }
         if(newSrcNum < 1){
             newSrcNum = congit.imgNumber;
-            congit.dom.previewImg.src = `./imgs/match/${newSrcNum}.jpg`;
+            congit.dom.previewImg.src = `./imgs/match_18/${newSrcNum}.jpg`;
         }
 
-        congit.dom.previewImg.src = `./imgs/match/${newSrcNum}.jpg`;
+        congit.dom.previewImg.src = `./imgs/match_18/${newSrcNum}.jpg`;
 
     }
 
